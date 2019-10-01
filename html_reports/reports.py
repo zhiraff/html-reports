@@ -24,7 +24,7 @@ def transform_markdown(text):
 class Report:
     """ html report class """
 
-    def __init__(self, title="Report", scripts=[], raw_scripts=[], styles={}):
+    def __init__(self, title="Report", scripts=[], raw_scripts=[], styles=[]):
 
         # Main arguments
         self.args = {"title": title}
